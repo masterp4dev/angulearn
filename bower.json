@@ -1,0 +1,23 @@
+{
+  "name": "bower_components",
+  "authors": [
+    "Issa Jubril <issa.jubril@andela.com>"
+  ],
+  "description": "bower componets for angulearn",
+  "main": "app.js",
+  "moduleType": [],
+  "keywords": [
+    "learning",
+    "angular"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

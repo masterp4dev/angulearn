@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Angularing</title>
+  </head>
+  <body>
+    <p ng-init="person={name: 'Jubril', age: 23}">
+      awesome {{person.name}} and {{person.age}}
+    </p>
+    {{2 + 2}}
+    <p>
+      {{dish.comment}}
+      <input type="text" name="comment" value="" ng-model="dish.comment">
+    </p>
+    <script src="script/angular.min.js" charset="utf-8"></script>
+  </body>
+</html>
